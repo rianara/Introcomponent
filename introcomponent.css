@@ -11979,7 +11979,7 @@ body {
   background: #ff7a7a;
   font-family: "Poppins", sans-serif;
   font-weight: 400;
-  background-image: url(bg-intro-desktop.png);
+  background-image: url(../Introcomponent/bg-intro-desktop.png);
 }
 
 .row {
