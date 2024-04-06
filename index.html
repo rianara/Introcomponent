@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <title>Frontend Mentor | Intro component with sign up form</title>
+  <link rel="stylesheet" href="introcomponent.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+</head>
+<body>
+  <main>
+    <div class="container">
+      <div class="row d-flex align-items-center">
+        <div class="col-md-6 col-12 left-col">
+          <h1 class="my-3">Learn to Code by watching others</h1>
+          <p>See how experienced developers solve problems in real-time. Watching scripted tutorials is great, 
+            but understanding how developers think is invaluable.</p>
+        </div>
+        <div class="col-md-6">
+          <div class="col-12 right-col-top">
+            <h2 class="text-center mb-3">Try it free 7 days <span>then $20/mo. thereafter</span></h2>
+          </div>
+          <div class="col-12 right-col-bot">
+            <form action="" method="post" class="d-flex flex-column mb-3">
+              <label for="firstName" hidden="true" aria-hidden="true">First Name</label>
+              <input type="text" id="firstName" name="First Name" placeholder="First Name" required>
+              <p class="errorText"></p>
+              <div class="d-flex justify-content-end">
+                <img src="icon-error.svg" alt="error" class="errorImage">
+              </div>
+              <label for="lastName" hidden="true" aria-hidden="true">Last Name</label>
+              <input type="text" id="lastName" name="Last Name" placeholder="Last Name" required>
+              <p class="errorText"></p>
+              <div class="d-flex justify-content-end">
+                <img src="icon-error.svg" alt="error" class="errorImage">
+              </div>
+              <label for="email" hidden="true" aria-hidden="true">Email Address</label>
+              <input type="email" id="email" name="Email Address" placeholder="Email Address" required>
+              <p class="errorText"></p>
+              <div class="d-flex justify-content-end">
+                <img src="icon-error.svg" alt="error" class="errorImage">
+              </div>
+              <label for="password" hidden="true" aria-hidden="true">Password</label>
+              <input type="password" id="password" name="Password" placeholder="Password" required>
+              <p class="errorText"></p>
+              <div class="d-flex justify-content-end">
+                <img src="icon-error.svg" alt="error" class="errorImage">
+              </div>
+              <br>
+              <button class="button py-3">Claim your free trial</button>
+            </form>
+            <p class="text-center px-4">By clicking the button, you are agreeing to our <a href="https://www.wfla.com/wp-content/uploads/sites/71/2023/05/GettyImages-1389862392.jpg?w=2560&h=1440&crop=1" target="_blank">Terms and Services</a></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+  
+  
+
+    
+<script src="introcomponent.js"></script>
+</body>
+
+<!-- <p class="attribution">
+  Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+  Coded by rianara
+</p> -->
+</html>
