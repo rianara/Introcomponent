@@ -12077,6 +12077,10 @@ body {
 @media (max-width: 767.98px) {
   .left-col {
     text-align: center;
+    margin-top: 2rem;
+  }
+  .right-col-bot {
+    margin-bottom: 3.5rem;
   }
 }
 @media (max-width: 575.98px) {

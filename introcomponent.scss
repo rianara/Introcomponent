@@ -8,7 +8,7 @@ body{
     background: #ff7a7a;
     font-family: "Poppins", sans-serif;
     font-weight: 400;
-    background-image: url(bg-intro-desktop.png);
+    background-image: url(../Introcomponent/bg-intro-desktop.png);
 }
 
 .row{
@@ -114,7 +114,12 @@ body{
 @include media-breakpoint-down(md){
     .left-col{
         text-align: center;
+        margin-top: 2rem;
     }
+    .right-col-bot{
+        margin-bottom: 3.5rem;
+    }
+
 }
 
 @include media-breakpoint-down(sm){
