@@ -35,6 +35,3 @@ button.onclick = function(){
         }
     }
 };
-console.log(button)
-console.log(email)
-console.log(errorImage)
